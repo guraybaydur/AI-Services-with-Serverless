@@ -86,11 +86,17 @@ In this tutorial, with the help of Serverless technology, we use multiple IBM Cl
 ## 4. Adjust credentials and test
 
 - Now go to your analyze action. From the left sidebar. Click Parameters. You will see a new parameter "__bx_cred" is added. Change its name to credentials. 
-- Go to your sequence page, click Invoke. You will see different emotions detected from your text with different certainty values.
+- Go to your sequence page, click Invoke. You will see different emotions detected from your text with different certainty values
 
+## Summary
 
+Artificial Intelligence is getting stronger with combination of its practices and it is inevitable to see the great outcomes that it serves to us. Having a chance to quickly experience this technology with IBM Cloud Functions gives us the agility to innovate like we never did before.
 
- ### Additional Note:  We constructed the sequence but we did not open it as a web endpoint to call from outside. Hence, from left side bar of your sequence page, click Endpoints and mark Enable as Web Action. Click Save. Copy the URL under Web Action and put .json at the end of the URL. You can now use this endpoint to call the sequence.
+## Related Links
+
+https://developer.ibm.com/tutorials/leverage-deep-learning-in-apache-openwhisk-ibm-cloud-functions/
+
+ #### Additional Note:  We constructed the sequence but we did not open it as a web endpoint to call from outside. Hence, from left side bar of your sequence page, click Endpoints and mark Enable as Web Action. Click Save. Copy the URL under Web Action and put .json at the end of the URL. You can now use this endpoint to call the sequence.
 
 
 
