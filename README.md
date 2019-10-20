@@ -21,11 +21,11 @@ In this tutorial, with the help of Serverless technology, we use multiple IBM Cl
 - Login to IBM Cloud with your credentials.
 - From the search bar at the top, search for Functions.
 
-<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.19.png" alt="drawing" width="1200" height="500"/>
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.19.png" alt="drawing" width="1200" height="550"/>
 
 - Click Start Creating.
 
-<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.25.png" alt="drawing" width="1200" height="500"/>
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.25.png" alt="drawing" width="1200" height="550"/>
 
 - Choose Install Packages.
 
