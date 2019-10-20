@@ -20,7 +20,7 @@ In this tutorial, with the help of Serverless technology, we use multiple IBM Cl
 ## 1. Install Watson Language Translator Package, modify codes and params
 - Login to IBM Cloud with your credentials.
 - From the search bar at the top, search for Functions.
-![alt text](https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.19.png)
+![alt text](https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.19.png =250x250)
 - Click Start Creating.
 - Choose Install Packages.
 - From the Installable Packages, choose Watson.
