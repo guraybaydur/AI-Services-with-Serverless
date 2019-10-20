@@ -28,11 +28,31 @@ In this tutorial, with the help of Serverless technology, we use multiple IBM Cl
 <img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.25.png" alt="drawing" width="1200" height="500"/>
 
 - Choose Install Packages.
+
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.02.01.png" alt="drawing" width="1200" height="500"/>
+
+
 - From the Installable Packages, choose Watson.
+
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.02.08.png" alt="drawing" width="1200" height="500"/>
+
 - Choose Language Translator and click install. You will be directed to Actions page where you can find predefined Watson Language Translator Actions Templates.
+
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.02.24.png" alt="drawing" width="1200" height="500"/>
+
 - First we need to identify the language from the given text. Therefore click "identify" under "language-translator-v3".
+
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.02.50.png" alt="drawing" width="1200" height="500"/>
+
 - Copy the whole code inside identify.js which is in our repository and paste it into identify action that we opened in Step 7. Please note the code between the green comment field inside function main, it indicates that we will use two parameters inside the function. "text" parameter is the text that we will investigate. "version" parameter is the Language Translator version that we will use. Click Save.
+
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.07.33.png" alt="drawing" width="1200" height="500"/>
+
+
 - Now we need to add the two parameters that we discussed. From the left sidebar, click Parameters. Click Add Parameter. Fill the empty field under "Parameter Name" with text. Fill the empty field under "Parameter Value" with some text you want to investigate (in our case it is "Hello! This is the sample text."). Click Add from top right  and fill the empty field under "Parameter Name" with version. Fill the empty field under "Parameter Value" with "2018-05-01". Click Save.
+
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.09.22.png" alt="drawing" width="1200" height="500"/>
+
 - Go back to Actions main page (cloud.ibm.com/functions/actions). Click translate under "language-translator-v3".
 - Copy the whole code inside translate.js which is in our repository and paste it into translate action that we opened in Step 10. Please note the code between the green comment field inside function main. We first extract the result from identify action and then check if the language is already in English or not. If the language is not English we make an api call to Language Translator with the source and target language parameters. Otherwise we send the English text directly to NLU Function we are going to implement without making any changes. Click Save.
 
@@ -45,6 +65,10 @@ In this tutorial, with the help of Serverless technology, we use multiple IBM Cl
 - Now we need to analyze the translated text. Therefore click "analyze" under "natural-language-understanding-v1".
 - Copy the whole code inside analyze.js which is in our repository and paste it into analyze action that we opened in Step 16. Please note the code between the green comment fields (there are two fields) inside function main. First we give the credentials. Then we check the text whether it is in English or not (it is just for parsing purposes). Finally,between the second comment field, we alter the code in such a way that it gives no bugs. Click Save.
 - Now we need to add the two parameters, version and features to analyze. From the left sidebar, click Parameters. Click Add Parameter. Fill the empty field under "Parameter Name" with version. Fill the empty field under "Parameter Value" with "2019-07-12". Click Add from top right  and fill the empty field under "Parameter Name" with features. Fill the empty field under "Parameter Value" with {"emotion":{"limit":2}}. Click Save.
+
+
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.18.50.png" alt="drawing" width="1200" height="500"/>
+
 
 ## 3. Create a Sequence
 
