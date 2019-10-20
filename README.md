@@ -7,6 +7,12 @@ Considering fast implementation, Serverless is the concept where developers only
 
 In this tutorial, with the help of Serverless technology, we use multiple IBM Cloud Watson (AI) Services consecutively to practice how AI can be applied in rapid way. We input texts in different languages to IBM Watson Language Translator Action to retrieve English translation of the text and then we give the English text into IBM Watson Natural Language Understanding Action to detect the emotions inside the text. 
 
+## Architecture
+
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2022.44.12.png" alt="drawing" width="1200" height="500"/>
+
+
+
 ## Prerequisites
 
 - IBM Cloud Account
