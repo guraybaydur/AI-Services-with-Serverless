@@ -24,6 +24,9 @@ In this tutorial, with the help of Serverless technology, we use multiple IBM Cl
 <img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.19.png" alt="drawing" width="1200" height="500"/>
 
 - Click Start Creating.
+
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2015.01.25.png" alt="drawing" width="1200" height="500"/>
+
 - Choose Install Packages.
 - From the Installable Packages, choose Watson.
 - Choose Language Translator and click install. You will be directed to Actions page where you can find predefined Watson Language Translator Actions Templates.
