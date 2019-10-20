@@ -9,7 +9,7 @@ In this tutorial, with the help of Serverless technology, we use multiple IBM Cl
 
 ## Architecture
 
-<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2022.44.12.png" alt="drawing" width="800" height="500"/>
+<img src="https://github.ibm.com/Guray-Baydur/Cloud-Functions-Multiple-AI-Services/blob/master/Screenshots/Screen%20Shot%202019-10-20%20at%2022.44.12.png" alt="drawing" width="600" height="500"/>
 
 
 
